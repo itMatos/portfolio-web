@@ -1,13 +1,12 @@
 'use client';
 import Image from "next/image";
-import styles from "./page.module.css";
 import { Grid, ThemeProvider, Typography, createTheme } from "@mui/material";
 import './globals.css';
-import Header from '@/components/Header';
-import Main from "@/components/Main";
-import About from "@/components/About";
-import Resume from "@/components/Resume";
-import Contact from "@/components/Contact";
+import Header from '../components/Header';
+import Main from "../components/Main";
+import About from "../components/About";
+import Resume from "../components/Resume";
+import Contact from "../components/Contact";
 
 export let theme = createTheme({
   typography: {
