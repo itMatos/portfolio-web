@@ -1,8 +1,42 @@
+
+@font-face {
+  font-family: SF-Pro-Text-Regular;
+  src: url("../fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.ttf");
+  format: ("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Text-Semibold;
+  src: url("../fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.ttf");
+  format: ("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Text-Light;
+  src: url("../fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.ttf");
+  format: ("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Text-Bold;
+  src: url("../fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.ttf");
+  format: ("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display-Regular;
+  src: url("../fonts/SF-Pro-Display-Regular.ttf");
+  format: ("truetype");
+  font-display: swap;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+  --font-mono: ui-monospace, "Cascadia Mono",
+    "Roboto Mono", "Ubuntu Monospace",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
