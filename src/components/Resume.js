@@ -86,6 +86,7 @@ function Resume() {
                                 <ListItem>
                                     <ListItemText primary="Implementação de features e correção de bugs de front-end e back-end." />
                                 </ListItem>
+                                
                                 <ListItem>
                                     <ListItemText primary="Testes automatizados em front-end e back-end." />
                                 </ListItem>
